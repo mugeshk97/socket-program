@@ -3,7 +3,7 @@ import socket
 s = socket.socket()
 print("socket created")
 # we need to accept the connection so we need to specify the ip and port number
-s.bind(('localhost', 9999))
+s.bind(('localhost', 9999)) # machine ip address
 #start listening to the client
 s.listen(3) # num of connection that can listen
 print("waiting for connections")
